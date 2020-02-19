@@ -1,0 +1,5 @@
+C:\VS_Projects\LybraryForAlgLab\bin\Debug\LybraryForAlgLab.dll
+C:\VS_Projects\LybraryForAlgLab\bin\Debug\LybraryForAlgLab.pdb
+C:\VS_Projects\LybraryForAlgLab\obj\Debug\LybraryForAlgLab.csprojAssemblyReference.cache
+C:\VS_Projects\LybraryForAlgLab\obj\Debug\LybraryForAlgLab.dll
+C:\VS_Projects\LybraryForAlgLab\obj\Debug\LybraryForAlgLab.pdb
