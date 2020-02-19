@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 
-namespace LybraryForAlgLab
+namespace LibraryForAlgLab
 {
-    class Subroutines
+    public static class Subroutines
     {
         /// <summary>
         /// Печатает меню 
@@ -15,11 +15,11 @@ namespace LybraryForAlgLab
             do
             {
                 Console.Clear();
-                Console.WriteLine("* c - создать кучу и заполнить ее случайными величинами");
-                Console.WriteLine("* r - добавить элементы в кучу");
-                Console.WriteLine("* b - восстановить кучу из файла input.dat");
-                Console.WriteLine("* d - вывести первые К натуральных чисел");
-                Console.WriteLine("* p - показать кучу");
+                Console.WriteLine("* c - созадть граф (ручками)");
+                Console.WriteLine("* r - восстановить граф из файла (рекомендуется)");
+                Console.WriteLine("* b - показать Гамильтонов путь");
+                Console.WriteLine("* d - показать матрицу смежности");
+                //Console.WriteLine("* p - показать кучу");
                
                 //Console.WriteLine("* h - Получить высоту дерева");
                 //Console.WriteLine("* v - получить информацию о корне");

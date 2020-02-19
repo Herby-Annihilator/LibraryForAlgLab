@@ -1,0 +1,10 @@
+D:\Проекты  в студии\LybraryForAlgLab\bin\Debug\LybraryForAlgLab.dll
+D:\Проекты  в студии\LybraryForAlgLab\bin\Debug\LybraryForAlgLab.pdb
+D:\Проекты  в студии\LybraryForAlgLab\obj\Debug\LibraryForAlgLab.csprojAssemblyReference.cache
+D:\Проекты  в студии\LybraryForAlgLab\obj\Debug\LybraryForAlgLab.dll
+D:\Проекты  в студии\LybraryForAlgLab\obj\Debug\LybraryForAlgLab.pdb
+D:\Проекты  в студии\LibraryForAlgLab\bin\Debug\LibraryForAlgLab.dll
+D:\Проекты  в студии\LibraryForAlgLab\bin\Debug\LibraryForAlgLab.pdb
+D:\Проекты  в студии\LibraryForAlgLab\obj\Debug\LibraryForAlgLab.dll
+D:\Проекты  в студии\LibraryForAlgLab\obj\Debug\LibraryForAlgLab.pdb
+D:\Проекты  в студии\LibraryForAlgLab\obj\Debug\LibraryForAlgLab.csprojAssemblyReference.cache
