@@ -17,7 +17,7 @@ namespace LibraryForAlgLab
                 Console.Clear();
                 Console.WriteLine("* c - созадть граф (ручками)");
                 Console.WriteLine("* r - восстановить граф из файла (рекомендуется)");
-                Console.WriteLine("* b - показать Гамильтонов путь");
+                Console.WriteLine("* b - Проверить, будут ли в графе существовать кратчайшие пути одинаковых весов между различными парами вершин");
                 Console.WriteLine("* d - показать матрицу смежности");
                 //Console.WriteLine("* p - показать кучу");
                
@@ -245,5 +245,43 @@ namespace LibraryForAlgLab
             return true;
         }
 
+
+        public static char PrintMenu(string[] phrases, char[] symbols)
+        {
+            if (phrases == null || symbols == null)
+            {
+                throw new NullReferenceException("Один или оба массива null");
+            }
+            if (phrases.Length != symbols.Length)
+            {
+                throw new FormatException("количество фраз не соответсвует количеству символов");
+            }
+            char symbol;
+            int lenght = phrases.Length;
+            do
+            {
+                Console.Clear();
+                for (int i = 0; i < lenght; i++)
+                {
+                    Console.WriteLine("* " + symbols[i] + " - " + phrases[i] + "\n");
+                }
+                Console.WriteLine("* ESC - выход");
+                Console.Write("Ваш выбор - ");
+                symbol = Console.ReadKey(true).KeyChar;
+            } while (!IsOneOfTheseSymbols(symbols, symbol) && symbol != (char)27);
+            return symbol;
+        }
+
+        private static bool IsOneOfTheseSymbols(char[] symbols, char symbol)
+        {
+            for (int i = 0; i < symbols.Length; i++)
+            {
+                if (symbol == symbols[i])
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }

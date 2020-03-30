@@ -8,3 +8,7 @@ D:\Проекты  в студии\LibraryForAlgLab\bin\Debug\LibraryForAlgLab.p
 D:\Проекты  в студии\LibraryForAlgLab\obj\Debug\LibraryForAlgLab.dll
 D:\Проекты  в студии\LibraryForAlgLab\obj\Debug\LibraryForAlgLab.pdb
 D:\Проекты  в студии\LibraryForAlgLab\obj\Debug\LibraryForAlgLab.csprojAssemblyReference.cache
+C:\VS_Projects\LibraryForAlgLab\bin\Debug\LibraryForAlgLab.dll
+C:\VS_Projects\LibraryForAlgLab\bin\Debug\LibraryForAlgLab.pdb
+C:\VS_Projects\LibraryForAlgLab\obj\Debug\LibraryForAlgLab.dll
+C:\VS_Projects\LibraryForAlgLab\obj\Debug\LibraryForAlgLab.pdb
