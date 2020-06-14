@@ -49,5 +49,19 @@ namespace LibraryForAlgLab
             }
             return matrix;
         }
+
+        public static void SaveMatrixToFile(string fileName ,int[][] matrix)
+        {
+            StreamWriter writer = new StreamWriter(fileName);
+            for (int i = 0; i < matrix.GetLength(0); i++)
+            {
+                for (int j = 0; j < matrix.GetLength(0); j++)
+                {
+                    writer.Write(matrix[i][j] + ", ");
+                }
+                writer.WriteLine();
+            }
+            writer.Close();
+        }
     }
 }
